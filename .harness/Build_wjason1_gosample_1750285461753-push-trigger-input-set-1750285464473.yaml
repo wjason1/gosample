@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_wjason1_gosample_1750285461753-push-trigger-input-set
+  identifier: Build_wjason1_gosample_1750285461753pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: GoAppTest
+  pipeline:
+    identifier: Build_wjason1_gosample_1750285461753
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
