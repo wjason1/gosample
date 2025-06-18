@@ -52,3 +52,15 @@ pipeline:
             spec: {}
             type: Cloud
         type: CI
+  notificationRules:
+    - name: gosample
+      identifier: gosample
+      pipelineEvents:
+        - type: AllEvents
+      notificationMethod:
+        type: MsTeams
+        spec:
+          userGroups: []
+          msTeamKeys:
+            - https://msworldtravel.webhook.office.com/webhookb2/79a597bf-32d1-4292-9a6b-8b9439653bd8@2f85efb9-f376-4130-b995-797798a0410d/IncomingWebhook/817b2a8fff5e4e6a849c5f1642857833/d97b2ea7-3c40-4405-9d1e-d2caa3e0a372/V2ZeVTExNFONnqRgsLROIEogIparsfiza9RChwkvEXW581
+      enabled: true
